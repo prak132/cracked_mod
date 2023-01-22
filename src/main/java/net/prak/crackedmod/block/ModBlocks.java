@@ -14,7 +14,7 @@ import net.prak.crackedmod.item.ModItemGroup;
 
 public class ModBlocks {
     public static final Block CAT_BLOCK = registerBlock("cat_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.SUSSY);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.CAT_MILK);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
