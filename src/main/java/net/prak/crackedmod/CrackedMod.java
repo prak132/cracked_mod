@@ -3,6 +3,7 @@ package net.prak.crackedmod;
 import net.fabricmc.api.ModInitializer;
 import net.prak.crackedmod.block.ModBlocks;
 import net.prak.crackedmod.item.ModItems;
+import net.prak.crackedmod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +15,6 @@ public class CrackedMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
