@@ -8,6 +8,6 @@ import net.prak.crackedmod.CrackedMod;
 
 public class ModItemGroup {
 
-    public static final ItemGroup SUSSY = FabricItemGroupBuilder.build(
-            new Identifier(CrackedMod.MOD_ID, "sussy"), () -> new ItemStack(ModItems.SUSSY));
+    public static final ItemGroup CAT_MILK = FabricItemGroupBuilder.build(
+            new Identifier(CrackedMod.MOD_ID, "cat_milk"), () -> new ItemStack(ModItems.CAT_MILK));
 }

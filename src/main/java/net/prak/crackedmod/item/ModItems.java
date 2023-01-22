@@ -7,10 +7,10 @@ import net.minecraft.util.registry.Registry;
 import net.prak.crackedmod.CrackedMod;
 
 public class ModItems {
-    public static final Item SUSSY = registerItem("sussy",
-            new Item(new FabricItemSettings().group(ModItemGroup.SUSSY)));
+    public static final Item CAT_MILK = registerItem("cat_milk",
+            new Item(new FabricItemSettings().group(ModItemGroup.CAT_MILK)));
     public static final Item CAT_BALL = registerItem("cat_ball",
-            new Item(new FabricItemSettings().group(ModItemGroup.SUSSY)));
+            new Item(new FabricItemSettings().group(ModItemGroup.CAT_MILK)));
 
 
     private static Item registerItem(String name, Item item) {
