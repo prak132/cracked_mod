@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crackedmod:cat_ball"
+    }
+  },
+  "result": {
+    "item": "crackedmod:cat_block"
+  }
+}
