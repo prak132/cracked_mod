@@ -36,7 +36,7 @@ public class DiceItem extends Item {
         if(Screen.hasShiftDown()) {
             tooltip.add(Text.literal("Right Click to roll the dice!").formatted(Formatting.AQUA));
         } else {
-            tooltip.add(Text.literal("Press Shift for more info!").formatted(Formatting.YELLOW));
+            tooltip.add(Text.literal("Press Shift to learn more!").formatted(Formatting.YELLOW));
         }
 
         super.appendTooltip(stack, world, tooltip, context);
